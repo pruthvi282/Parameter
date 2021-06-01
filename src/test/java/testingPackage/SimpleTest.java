@@ -20,6 +20,7 @@ public class SimpleTest {
 		}
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 	driver.findElement(By.xpath("//input[@class='inputs ui-autocomplete-input']")).sendKeys("this is a test");
+	driver.findElement(By.xpath("//input[@value='radio1']")).click();
 	driver.close();
 	
 	}
