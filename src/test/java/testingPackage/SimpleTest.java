@@ -23,6 +23,7 @@ public class SimpleTest {
 			driver=new ChromeDriver()
 			//oay
 		}
+		System.out.println("this is   a test");
 
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 	driver.findElement(By.xpath("//input[@class='inputs ui-autocomplete-input']")).sendKeys("this is a test");
